@@ -7,7 +7,7 @@
 import os
 import turtle
 
-
+len()
 def eql_mul_side(f_len_num, f_side_num):
     """画一个矩形"""
     pen = turtle.Pen()  # 创建一个笔对象
