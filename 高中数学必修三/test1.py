@@ -2,7 +2,6 @@ import unittest
 
 from programs.一元二次方程 import *
 from 算法与程序框图 import *
-from 算法实例 import *
 
 
 class MyTestCase(unittest.TestCase):
@@ -32,10 +31,13 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(get_year(), 2014)
 
 
+<<<<<<< HEAD
 class MyTestCase1(unittest.TestCase):
     def test_factor(self):
         self.assertEqual(get_factor1(6, 4), 2)
 
 
+=======
+>>>>>>> main/master
 if __name__ == '__main__':
     unittest.main()
