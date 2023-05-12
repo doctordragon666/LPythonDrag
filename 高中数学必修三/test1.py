@@ -30,14 +30,5 @@ class MyTestCase(unittest.TestCase):
     def test_year(self):
         self.assertEqual(get_year(), 2014)
 
-
-<<<<<<< HEAD
-class MyTestCase1(unittest.TestCase):
-    def test_factor(self):
-        self.assertEqual(get_factor1(6, 4), 2)
-
-
-=======
->>>>>>> main/master
 if __name__ == '__main__':
     unittest.main()
