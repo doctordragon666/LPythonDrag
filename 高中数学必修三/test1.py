@@ -1,6 +1,6 @@
 import unittest
 
-from programs.一元二次方程 import *
+from 一元二次方程 import *
 from 算法与程序框图 import *
 
 

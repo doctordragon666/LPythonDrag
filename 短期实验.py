@@ -5,7 +5,7 @@ import tkinter as tk
 
 def read():
     result = text1.get('1.0', 'end')
-
+    print(result)
     return result
 
 
