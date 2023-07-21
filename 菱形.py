@@ -2,16 +2,20 @@
 # 功能：打印菱形
 # 目的：灵活处理字符串
 
-def fun(b):
-    o = '*'
-    o = o * b
-    print(o.center(50, ' '))
+# 上半部分菱形
+for i in range(1, 13):
+    spaces = " " * (12 - i)
+    stars = "*" * (2 * i - 1)
+    line = f"{spaces}{stars}"
+    print(line.center(50))
 
+# 下半部分菱形
+for i in range(11, 0, -1):
+    spaces = " " * (12 - i)
+    stars = "*" * (2 * i - 1)
+    line = f"{spaces}{stars}"
+    print(line.center(50))
 
-for i in range(1, 40, 5):
-    fun(i)
-for q in range(40, 0, -5):
-    fun(q)
 
 # 在python中运行的结果是：
 #     *

@@ -7,6 +7,7 @@
 import os
 import turtle
 
+
 def eql_mul_side(f_len_num, f_side_num):
     """画一个矩形"""
     pen = turtle.Pen()  # 创建一个笔对象
@@ -18,7 +19,7 @@ def eql_mul_side(f_len_num, f_side_num):
 
 def tree(f_len, f_pen):
     """画树"""
-    if f_len > 5:
+    if f_len > 10:
         f_pen.forward(f_len)
         f_pen.right(20)
         tree(f_len - 10, f_pen)
@@ -40,7 +41,7 @@ if __name__ == '__main__':
     t.backward(100)
     t.down()  # 放下画笔
     t.color("green")
-    tree(30, t)
+    tree(100, t)
     myWin.exitonclick()  # 点击退出
 
     os.system('pause')
