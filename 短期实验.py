@@ -3,3 +3,15 @@
 
 
 # 请不要迅速关闭界面，保存7天以上
+
+nums = 0
+for i in range(2, 1000):
+    isPrime = True
+    for j in range(2, i):
+        if i % j == 0:
+            isPrime = False
+            break
+    if isPrime:
+        nums += 1
+        print(i)
+print(f'has {nums} primer')
